@@ -14,7 +14,7 @@ public class SpringSecurityInAuthApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringSecurityInAuthApplication.class, args);
-		log.info("SpringSecurityInAuthApplication :: main()");
+		log.info("SpringSecurityBasicAuthApplication :: main()");
 		
 		System.out.println("Use the credentials from application.properties file for Username: ? and Password:?");
 	}
